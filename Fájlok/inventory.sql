@@ -24,9 +24,8 @@ CREATE DATABASE IF NOT EXISTS `inventory` DEFAULT CHARACTER SET utf8mb4 COLLATE 
 USE `inventory`;
 
 -- --------------------------------------------------------
-CREATE USER 'inventory_admin'@'localhost' IDENTIFIED BY 'Qq6JMtIMrmlstxSO';
-GRANT ALL PRIVILEGES ON inventory.* TO 'inventory_admin'@'localhost';
-FLUSH PRIVILEGES;
+CREATE USER IF NOT EXISTS 'inventory_admin'@'localhost' IDENTIFIED BY 'Qq6JMtIMrmlstxSO';
+GRANT ALL PRIVILEGES ON `inventory`.* TO 'inventory_admin'@'localhost';
 --
 -- Tábla szerkezet ehhez a táblához `companies`
 --
