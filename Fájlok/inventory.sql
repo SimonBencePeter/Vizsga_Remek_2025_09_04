@@ -180,7 +180,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password_hash`, `full_name`, `role`, `created_at`) VALUES
-(1, 'admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Rendszergazda', 'admin', '2025-01-15 08:00:00'),
+(1, 'admin', '$2y$10$3YDM85ME4j4UHTmzE4sfoeRoVSk.RjSWws.yPLBl1Gi8LsbRsK95a', 'Rendszergazda', 'admin', '2025-01-15 08:00:00'),
 (2, 'user', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Felhasználó', 'user', '2025-01-15 08:05:00');
 
 --
